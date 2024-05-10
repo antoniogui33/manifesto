@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: rgb(64, 61, 61);
+    background-image: url(./img/nicolau.webp);
+    background-size: 100%;
+}
+
+
+.titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.titulo:hover{
+    color: rgba(57, 57, 57, 0.934);
+    font-size: 35px;
+}
+
+#subtitulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: solid 2px rgb(0, 0, 0);
+    border-top: solid 2px rgb(0, 0, 0);
+    color: rgb(57, 55, 55);
+}
+
+.link{
+    transition: 0.5s;
+}
+
+.link:hover{
+    color: crimson;
+    font-size: 20px;
+}
+
+.leis{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 35px;
+}
+
+.doe{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.doe2{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    padding-top: 50px;
+}
+#resumo{
+    margin-top: 15px;
+}
+
+#sos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
